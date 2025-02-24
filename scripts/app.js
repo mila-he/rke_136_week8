@@ -8,7 +8,7 @@ const movieOverview = document.querySelector('.movie-info-overview')
 const footerYear = document.querySelector('.year')
 
 window.onload = () => {
-    let url = 'https://api.themoviedb.org/3/movie/603?api_key=115f690319e7033ad83716129630f553';
+    let url = 'https://api.themoviedb.org/3/movie/603?api_key=';
     
     fetch(url)
     .then(response => {
