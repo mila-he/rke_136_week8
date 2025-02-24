@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/37f93148a2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/poster.css">
+    <title>Task</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="movie-card">
+            <h2 class="movie-title"></h2>
+            <p class="movie-genres">
+                <span class="movie-rating">PG-13</span>  
+                <span class="release-date"></span>
+                <span class="genres"></span>
+                <span class="movie-duration"></span>
+            </p>
+            <div class="movie-poster-container">
+                <img src="" alt="" class="movie-poster">
+
+                <div id="myModal" class="modal">
+                    <div class="modal-content">
+                        <span class="closeBtn">&times;</span>
+                        <img alt="" class="movie-poster-modal">
+                        <h1>"Free Guy!" (2025) </h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="movie-info-container">
+                <p class="movie-info-quote"></p>
+
+                <h2 class="movie-info-overview-title">overview</h2>
+                <p class="movie-info-overview"></p>
+
+                <div class="container-carousel">
+                    <div class="carousel">
+                        <div class="carousel__item carousel__item--visible">
+                            <img src="images/1.jpg" alt="">
+                        </div>
+            
+                        <div class="carousel__item">
+                            <img src="images/2.jpg" alt="">
+                        </div>
+            
+                        <div class="carousel__item">
+                            <img src="images/3.jpg" alt="">
+                        </div>
+
+                        <div class="carousel__item">
+                            <img src="images/4.jpg" alt="">
+                        </div>
+
+                        <div class="carousel__item">
+                            <img src="images/5.jpg" alt="">
+                        </div>
+
+                        <div class="carousel__item">
+                            <img src="images/6.jpg" alt="">
+                        </div>
+            
+                        <div class="carousel__actions">
+                            <button id="carousel__button--prev" aria-label="Previous slide"><</button>
+                            <button id="carousel__button--next" aria-label="Next slide">></button>
+                        </div>
+            
+                    </div>
+            
+                </div>
+
+                <div class="movie-info-actions">
+                    <ul>
+                        <li><a href="#" class="add-fav"><i class="fas fa-heart"></i></a></li>
+                        <li><a href="#" class="add-bookmark"><i class="fas fa-bookmark"></i></a></li>
+                        <li><a href="#" class="rate-movie"><i class="fas fa-star-half-alt"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <h3>Find me to discuss the movie</h3>
+             
+            <ul>
+                <li> <a href="#">Twitter <i class="fa-brands fa-x-twitter"></i></a></li>
+                <li> <a href="#">Instagram <i class="fa-brands fa-instagram"></i></a> </li>
+                <li> <a href="#">Facebook <i class="fa-brands fa-facebook"></i></a> </li>
+            </ul>
+    
+            <p>Mr.Dwight &#169 <span class="year"></span></p>
+    
+        </footer>
+
+
+    </div>
+
+    <script src="scripts/carousel.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
+</html>
